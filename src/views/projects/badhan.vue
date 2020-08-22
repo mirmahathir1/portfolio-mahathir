@@ -75,6 +75,9 @@
                         <h3>Video Presentation</h3>
                         <a href="https://drive.google.com/open?id=1zMNNCCzdcJzYAwt0RksCreUYR5wFJcJT">Click here to see
                             video presentation of the project</a>
+                        <br>
+                        <a href="https://github.com/mirmahathir1/badhan">Click here to see
+                            the git repository</a>
                     </div>
                 </div>
             </div>

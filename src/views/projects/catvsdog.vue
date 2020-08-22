@@ -70,7 +70,8 @@
                         </ul>
                         <h3>Links</h3>
                         <a href="https://www.kaggle.com/c/dogs-vs-cats">Click here to see the competition</a>
-
+                        <a href="https://github.com/mirmahathir1/badhan">Click here to see
+                            the git repository</a>
                     </div>
                 </div>
             </div>

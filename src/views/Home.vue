@@ -177,12 +177,19 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
-                                 data-aos-delay="100">
+                            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                                 <div class="count-box">
                                     <i class="icofont-document-folder"></i>
                                     <span data-toggle="counter-up">11</span>
                                     <p><strong>Web Projects</strong> academic, voluntary and competitive</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                                <div class="count-box">
+                                    <i class="icofont-atom"></i>
+                                    <span data-toggle="counter-up">2</span>
+                                    <p><strong>Data Science Competitions</strong></p>
                                 </div>
                             </div>
 
@@ -203,8 +210,7 @@
                         <div class="row">
                             <div class="col-lg-6" data-aos="fade-up" v-for="sector in sectors">
                                 <p>{{sector.sectorName}}</p>
-                                <div v-for="(skill,index) in sector.skills" data-aos="fade-right"
-                                     :data-aos-delay="50*index">
+                                <div v-for="(skill,index) in sector.skills" data-aos="fade-right">
                                     <b class="mt-5">{{skill.name}}</b>
 
                                     <b style="float: right">{{skill.value}}%</b>
@@ -237,7 +243,7 @@
 
 
                 <!-- ======= Portfolio Section ======= -->
-                <section id="portfolio" ref="portfolio" class="portfolio section-bg">
+                <section id="portfolio" ref="portfolio" class="portfolio section-bg ico">
                     <div class="container">
 
                         <div class="section-title">
@@ -273,7 +279,7 @@
                                             <v-col
                                                     v-for="(project,index) in projects"
                                                     v-if="project.type===toggle_exclusive || toggle_exclusive===0"
-                                                    data-aos="fade-up" :data-aos-delay="50*index"
+                                                    data-aos="fade-up"
                                                     :key="index"
                                                     class="d-flex child-flex"
                                                     cols="12"
@@ -319,9 +325,8 @@
                         <section id="mlportfolio" ref="mlportfolio" class="portfolio section-bg">
                             <div class="container">
                                 <div class="section-title">
-                                    <h2>Machine Learning Projects</h2>
-                                    <p>A brief description of all of my machine learning projects is available
-                                        below:</p>
+                                    <h2>Machine Learning Models</h2>
+                                    <p>A brief description of the several machine learning models I have worked on:</p>
                                 </div>
 
                                 <v-row align="center" justify="center" data-aos="fade-up">
@@ -338,9 +343,9 @@
                                         <v-btn small>
                                             <b>Practice</b>
                                         </v-btn>
-                                        <v-btn small>
-                                            <b>Research</b>
-                                        </v-btn>
+<!--                                        <v-btn small>-->
+<!--                                            <b>Research</b>-->
+<!--                                        </v-btn>-->
                                         <!--                                <v-btn>-->
                                         <!--                                    <b>App</b>-->
                                         <!--                                </v-btn>-->
@@ -355,7 +360,7 @@
                                                     <v-col
                                                             v-for="(project,index) in mlprojects"
                                                             v-if="project.type===toggle_ml || toggle_ml===0"
-                                                            data-aos="fade-up" :data-aos-delay="50*index"
+                                                            data-aos="fade-up"
                                                             :key="index"
                                                             class="d-flex child-flex"
                                                             cols="12"
@@ -381,7 +386,7 @@
                                                                     </v-row>
                                                                 </template>
                                                             </v-img>
-                                                            <v-card-title>
+                                                            <v-card-title style="word-break: normal;">
                                                                 {{project.name}}
                                                             </v-card-title>
                                                             <v-card-actions>
