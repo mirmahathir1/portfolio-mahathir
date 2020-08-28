@@ -169,13 +169,13 @@
 
                         <div class="row no-gutters">
 
-                            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-                                <div class="count-box">
-                                    <i class="icofont-simple-smile"></i>
-                                    <span data-toggle="counter-up">1</span>
-                                    <p><strong>Happy Girlfriend</strong> who cares for me very much</p>
-                                </div>
-                            </div>
+<!--                            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">-->
+<!--                                <div class="count-box">-->
+<!--                                    <i class="icofont-simple-smile"></i>-->
+<!--                                    <span data-toggle="counter-up">1</span>-->
+<!--                                    <p><strong>Happy Girlfriend</strong> who cares for me very much</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
 
                             <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                                 <div class="count-box">
