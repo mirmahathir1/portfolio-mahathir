@@ -212,9 +212,11 @@
                                 a list of what I have in my brain right now:( </p>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6" data-aos="fade-up" v-for="sector in sectors">
-                                <p>{{ sector.sectorName }}</p>
-                                <div v-for="(skill,index) in sector.skills" data-aos="fade-right">
+                            <b-card class="col-lg-6" data-aos="fade-up" v-for="(sector,index) in sectors" :key="index">
+                                <b-card-title>
+                                    {{ sector.sectorName }}
+                                </b-card-title>
+                                <div v-for="(skill,index) in sector.skills.slice(0,3)" :key="index" data-aos="fade-right">
                                     <b class="mt-5">{{ skill.name }}</b>
 
                                     <b style="float: right">{{ skill.value }}%</b>
@@ -228,7 +230,32 @@
                                         stream
                                     ></v-progress-linear>
                                 </div>
-                            </div>
+
+
+                                <template v-if="sector.skills.length>3">
+                                    <b-button variant="link" v-b-toggle="'collapse-'+index" class="m-1">See More
+                                    </b-button>
+
+                                    <b-collapse :id="'collapse-'+index">
+                                        <div v-for="(skill,index) in sector.skills.slice(3,sector.skills.length)" :key="index"
+                                             data-aos="fade-right">
+                                            <b class="mt-5">{{ skill.name }}</b>
+
+                                            <b style="float: right">{{ skill.value }}%</b>
+                                            <v-progress-linear
+                                                class="mt-4 mb-4"
+                                                color="blue"
+                                                buffer-value="0"
+                                                striped
+                                                height="10"
+                                                :value="skill.value"
+                                                stream
+                                            ></v-progress-linear>
+                                        </div>
+                                    </b-collapse>
+                                </template>
+
+                            </b-card>
                         </div>
                     </div>
                 </section><!-- End Skills Section -->
@@ -308,7 +335,7 @@
                                                             </v-row>
                                                         </template>
                                                     </v-img>
-                                                    <v-card-title>
+                                                    <v-card-title style="word-break: normal;">
                                                         {{ project.name }}
                                                     </v-card-title>
                                                     <v-card-actions>
@@ -516,8 +543,6 @@ export default {
                     {name: "Java", value: 80},
                     {name: "Python", value: 40},
                     {name: "PHP", value: 80},
-                    {name: "HTML", value: 100},
-                    {name: "CSS", value: 100},
                     {name: "LaTeX", value: 60},
                     {name: "C++", value: 60},
                     {name: "SQL", value: 80}
