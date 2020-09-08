@@ -595,10 +595,10 @@ export default {
             {
                 sectorName: "Misc",
                 skills: [
+                    {name: "Figma",value:40},
                     {name: "Docker", value: 40},
-                    {name: "Arduino", value: 40},
                     {name: "JavaFX", value: 80},
-
+                    {name: "Arduino", value: 40},
                 ]
             }
         ],
