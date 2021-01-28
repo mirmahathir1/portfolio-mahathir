@@ -607,7 +607,7 @@ export default {
             {name: 'Multiplayer Chess', path: 'chess', type: 3},
             {name: 'Industrial Automation Challenge', path: 'industrialautomation', type: 1},
             {name: 'Card Cash', path: 'cardcash', type: 1},
-            {name: 'Node Vue Note', path: 'nodevuenote', type: 2},
+            {name: 'Notebook', path: 'notebook', type: 2},
             {name: 'PicUp', path: 'picup', type: 2},
             {name: 'Traanchitro', path: 'traanchitro', type: 2}
         ],

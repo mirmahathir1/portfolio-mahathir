@@ -9,7 +9,7 @@
                     <h2>Project Details</h2>
                     <ol>
                         <li><a >Home</a></li>
-                        <li>Node Vue Note</li>
+                        <li>Notebook</li>
                     </ol>
                 </div>
 
@@ -42,7 +42,7 @@
                         <h3>Project information</h3>
                         <ul>
                             <li><strong>Category</strong>: Web</li>
-                            <li><strong>Name</strong>: Node Vue Note</li>
+                            <li><strong>Name</strong>: Notebook</li>
                             <li><strong>Organization</strong>: (None)</li>
                             <li><strong>Project date</strong>: 26 November, 2019</li>
                             <!--              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>-->
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="portfolio-description ml-3">
-                    <h2>Node Vue Note</h2>
+                    <h2>Notebook</h2>
                     <p>
                         A note-taking web app
                     </p>
