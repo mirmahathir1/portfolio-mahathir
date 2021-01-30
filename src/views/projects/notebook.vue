@@ -33,7 +33,7 @@
                     >
                         <b-carousel-slide
                                 v-for="index in numberOfImages" :key="index"
-                                :img-src="firebasePath(['projects','nodevuenote',String(index-1)+'.png'])"
+                                :img-src="firebasePath(['projects','notebook',String(index-1)+'.png'])"
                         ></b-carousel-slide>
 
                     </b-carousel>
