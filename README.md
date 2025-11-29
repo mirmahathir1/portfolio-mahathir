@@ -1,5 +1,7 @@
 # portfolio-vue
 
+This is my first portfolio during my undergraduation at BUET.
+
 ## Project setup
 ```
 npm install

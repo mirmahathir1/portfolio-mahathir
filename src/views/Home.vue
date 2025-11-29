@@ -12,7 +12,7 @@
                 <v-list-item class="px-2">
                     <v-list-item-avatar size="80">
                         <v-img
-                            src="https://firebasestorage.googleapis.com/v0/b/portfolio-mahathir.appspot.com/o/profile-img.jpg?alt=media&token=40d57d20-5036-407e-9979-a1a7c7efc384"></v-img>
+                            src="../assets/bucket/profile-img.jpg"></v-img>
                     </v-list-item-avatar>
                 </v-list-item>
 
@@ -102,7 +102,7 @@
                         <div class="row">
                             <div class="col-lg-4" data-aos="fade-right">
                                 <img
-                                    src="https://firebasestorage.googleapis.com/v0/b/portfolio-mahathir.appspot.com/o/profile-img.jpg?alt=media&token=40d57d20-5036-407e-9979-a1a7c7efc384"
+                                    src="../assets/bucket/profile-img.jpg"
                                     class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">

@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("https://firebasestorage.googleapis.com/v0/b/portfolio-mahathir.appspot.com/o/hero-bg.jpg?alt=media&token=48a41895-7f31-4eba-a0ba-7e6cd828bee7") top center;
+    background: url("../bucket/hero-bg.jpg") top center;
     background-size: cover;
     background-attachment: fixed;
 }
